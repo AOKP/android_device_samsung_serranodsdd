@@ -9,7 +9,7 @@
   },
   {
     "remote": "aokp",
-    "repository": "android_device_samsung_serrano-common",
+    "repository": "device_samsung_serrano-common",
     "target_path": "device/samsung/serrano-common"
     "revision": "nougat"
   },
