@@ -40,6 +40,3 @@ BOARD_HAVE_GENERIC_BLN := true
 
 # Charger
 BOARD_NO_CHARGER_LED := true
-
-# Charger
-BOARD_NO_CHARGER_LED := true
