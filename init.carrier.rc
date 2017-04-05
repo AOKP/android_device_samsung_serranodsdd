@@ -24,13 +24,11 @@
 # OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
-on post-fs-data
-
 service qcom-c_main-sh /system/bin/sh /init.class_main.sh
     class late_start
     user root
     oneshot
-    
+
 # for multi rild
 service ril-daemon2 /system/bin/rild -s rild2 -ds rild-debug2 -l /system/lib/libsec-ril-dsds.so
     class main
