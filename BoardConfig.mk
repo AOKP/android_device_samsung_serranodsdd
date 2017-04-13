@@ -36,6 +36,9 @@ TARGET_OTA_ASSERT_DEVICE := serranods,serranodsdd,serranodsub,serranodsxx,GT-I91
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8930_serrano_eur_3g_defconfig
 
+# Lights
+TARGET_PROVIDES_LIBLIGHT := true
+
 # BLN
 BOARD_HAVE_GENERIC_BLN := true
 
